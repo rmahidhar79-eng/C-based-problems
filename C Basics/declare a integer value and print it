@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+int cost;
+scanf("%d",&cost);
+printf("cost:%d",cost);
+    return 0;
+}
