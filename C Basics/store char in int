@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    char ch='A';
+int a;
+a=ch;;
+printf("a:%d\n",a);
+printf("ch:%c",ch);
+    return 0;
+}
