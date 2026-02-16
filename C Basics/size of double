@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main() {
+
+ printf("size of double:%lu",sizeof(double));
+    return 0;
+}
