@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+float cost = 3.14;
+printf("cost:%.2f",cost);
+
+    return 0;
+}
