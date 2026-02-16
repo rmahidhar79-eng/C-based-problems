@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main() {
+char a ='A';
+printf(" char  variables:%c",a);
+    return 0;
+}
