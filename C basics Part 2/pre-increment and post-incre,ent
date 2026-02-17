@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+int a;
+printf("enter the value:");
+scanf("%d",&a);
+int pre =++a;//pre-increment
+int post =a++;//post- increment
+printf("pre:%d post:%d",pre,post);
+
+    return 0;
+}
