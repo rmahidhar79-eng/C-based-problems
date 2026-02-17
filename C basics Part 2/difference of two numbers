@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+int a,b;
+scanf("%d %d",&a,&b);
+int difference = a - b;
+printf("difference of two numbers:%d",difference);
+
+
+    return 0;
+}
