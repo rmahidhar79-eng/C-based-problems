@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+int integer;
+printf("enter the integer:");
+scanf("%d",&integer);
+if((integer%3 ==0 )&& (integer%7 == 0)){
+    printf("Multiple");
+}
+else{
+    printf("not multiple");
+}
+    return 0;
+
+}
