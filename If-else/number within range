@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+int num;
+printf("enter the num:");
+scanf("%d",&num);
+if(num>=10 && num<=20){
+    printf("Number is within Range");
+}
+else {
+    printf("Number is not within Range");
+}
+
+    return 0;
+
+}
