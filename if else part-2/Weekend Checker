@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main() {
+ int day;
+    printf("Enter the day:");
+    scanf("%d",&day);
+    
+    if(day==6||day==7){
+        printf("Weekend Day");
+    }
+
+else if (day<=5&&day>=1){
+printf("Week day");
+}
+else{
+    printf("Invalid Enter number between 1-7");
+}
+    return 0;
+}
