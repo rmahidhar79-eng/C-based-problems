@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+ int Attendance;
+    printf("Enter the Attendance:");
+    scanf("%d",&Attendance);
+    
+    if(Attendance>=75){
+        printf("Eligible for Exam");
+    }
+
+else{
+    printf("not Eligible for Exam");
+}
+    return 0;
+}
