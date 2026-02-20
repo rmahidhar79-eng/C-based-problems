@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+int digit;
+scanf("%d",&digit);
+if(digit>=48&&digit<=57){
+printf("Digit");
+}
+else{
+ printf(" not Digit");
+}
+
+    return 0;
+}
