@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+int email_length;
+printf("enter email_length:");
+scanf("%d",&email_length);
+if(email_length>5){
+    printf("Valid mail");
+}
+else{
+    printf("invalid");
+}
+    return 0;
+}
