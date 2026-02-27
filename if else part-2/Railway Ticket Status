@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+int seats;
+printf("Enter the seat number:");
+scanf("%d",&seats);
+if(seats>0){
+    printf("Confirmed");
+}
+else{
+    printf("waiting list");
+}
+    return 0;
+}
