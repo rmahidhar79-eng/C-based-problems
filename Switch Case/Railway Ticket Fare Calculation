@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main() {
+int classes;
+int age;
+int fare = 0;
+scanf("%d %d",&classes,&age);
+switch(classes){
+    case 1:
+    if(age<12){
+        fare = 300/2;
+    }
+    else if(age>=60){
+        fare = 300*0.33/100;
+    }
+    else{
+        fare = 300;
+    }
+    break;
+    case 2:
+    if(age<12){
+        fare = 1000/2;
+    }
+    else{
+        fare = 1000;
+    }
+  break;
+  default:
+  printf("Invalid class");
+  return 0;
+}
+printf("fare = %d",fare);
+    return 0;
+}
