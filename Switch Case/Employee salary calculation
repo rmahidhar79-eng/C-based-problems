@@ -1,0 +1,32 @@
+#include <stdio.h>
+int main() {
+int code;
+int experience;
+int salary = 0;
+int bonus; int total_salary;
+scanf("%d %d",&code,&experience);
+
+
+        switch(code){
+            case 1:
+            salary = 50000;
+            break;
+            case 2:
+            salary = 35000;
+            break;
+            default:
+            printf("Invalid");
+            return 0;
+            }
+            if(experience>=3){
+                 bonus = 5*5000;
+            }
+            else {
+                 bonus = 0;
+            }
+            
+            total_salary = salary + bonus;
+            printf("Total_salary = %d",total_salary);
+
+    return 0;
+}
