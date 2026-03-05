@@ -1,0 +1,32 @@
+#include <stdio.h>
+int main() {
+int roomType;
+char ch;
+int tariff = 0;
+scanf("%d",&roomType);
+scanf(" %c",&ch);
+ switch(roomType){
+    case 1 :
+    if(ch == 'A'){
+        tariff = 2500;
+    }
+    else if(ch =='B'){
+        tariff = 2000;
+    }
+    break;
+    case 2:
+    if(ch == 'C'){
+        tariff = 4000;
+    }
+    else if(ch == 'D'){
+        tariff = 3000;
+    }
+    break;
+    default:
+    printf("Invalid");
+        return 0;
+ }
+ printf("%d",tariff);
+
+    return 0;
+}
