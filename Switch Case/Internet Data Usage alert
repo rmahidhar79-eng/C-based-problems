@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main() {
+int planType;
+float data_used;
+scanf("%d",&planType);
+scanf("%f",&data_used);
+
+        switch(planType){
+        case 1:
+        if(data_used<=1){
+            printf("Normal Speed");
+        }
+        else if(data_used>1){
+            printf("speed Reduced");
+        }
+        break;
+        case 2:
+        if(data_used<=2){
+            printf("Normal speed");
+        }
+        else if (data_used>2)
+            printf("extra charges applied");
+            break;
+            default:
+            printf("Invalid");
+        }
+    return 0;
+}
