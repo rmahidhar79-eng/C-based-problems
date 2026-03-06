@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() {
+int  durationtype; 
+scanf("%d",&durationtype);
+
+        switch(durationtype){
+                case 1:
+                printf("1500");
+                break;
+                case 2:
+                printf("4000");
+                break;
+                case 3:
+                printf("7000");
+                break;
+                default:
+               printf("Invalid");
+                }
+   
+       return 0;
+}
