@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() {
+int booktype,dayslate;
+int charges = 0;
+scanf("%d %d",&booktype,&dayslate);
+
+        switch(booktype){
+            case 1:
+            charges = dayslate*2;
+            break;
+            case 2:
+            charges = dayslate*5;
+            break;
+            default:
+            printf("Invalid");
+            return 0;
+        }
+
+        printf("%d",charges);
+    
+       return 0;
+}
