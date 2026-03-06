@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main() {
+int vehicletype,distance;
+int charges = 0;
+scanf("%d %d",&vehicletype,&distance);
+
+        switch(vehicletype){
+            case 1:
+            charges = distance*10;
+            break;
+            case 2:
+            charges = distance*15;
+            break;
+            case 3:
+            charges = distance*20;
+            break;
+            default:
+            printf("Invalid");
+            return 0;
+        }
+
+        printf("%d",charges);
+    
+       return 0;
+}
