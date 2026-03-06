@@ -16,6 +16,7 @@ scanf("%d %d",&calltype,&minutes);
             break;
             default:
             printf("Invalid");
+return 0;
         }
 
         printf("%d",charges);
