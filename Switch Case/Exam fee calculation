@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main() {
+int category;
+int fees = 0;
+scanf("%d",&category);
+
+        switch(category){
+            case 1:
+            printf("Exam fee =1200");
+            break;
+            case 2:
+              printf("Exam fee =800");
+            break;
+            case 3:
+              printf("Exam fee =500");
+            break;
+            default:
+            printf("Invalid");
+        }
+
+    
+       return 0;
+}
