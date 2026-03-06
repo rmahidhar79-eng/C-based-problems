@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main() {
+int seattype,showtime;
+int price  = 0;
+scanf("%d %d",&seattype,&showtime);
+
+        switch(seattype){
+            case 1:
+            price = 150;
+            break;
+            case 2:
+            price = 250;
+            break;
+            default:
+            printf("invalid");
+            return 0;
+        }
+        if(showtime>=18){
+            price = price+50;
+        }
+        
+       printf("price = %d",price);
+        return 0;
+}
