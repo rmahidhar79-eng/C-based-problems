@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main() {
+int calltype,minutes;
+int charges = 0;
+scanf("%d %d",&calltype,&minutes);
+
+        switch(calltype){
+            case 1:
+            charges = minutes*1;
+            break;
+            case 2:
+            charges = minutes*3;
+            break;
+            case 3:
+            charges = minutes*10;
+            break;
+            default:
+            printf("Invalid");
+        }
+
+        printf("%d",charges);
+    
+       return 0;
+}
